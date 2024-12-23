@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+form input {
+  margin-bottom: 10px;
+}
+
+a {
+  color: white;
+}
+
+.message {
+  border: 1px solid white;
+  margin-top: 20px;
+  padding: 5px;
+  width: 500px;
+}
+
+.membership-form,
+.new-message-form {
+  width: 300px;
+  margin-top: 20px;
+}
+
+.new-message {
+  margin-top: 20px;
+  cursor: pointer;
+}
